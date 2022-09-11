@@ -1,4 +1,4 @@
-# C-XP (c-xp)
+# C-XP (Customer Experience)
 
 Customer XP
 
@@ -22,3 +22,6 @@ quasar build
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+
+### Screenshots
+[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
