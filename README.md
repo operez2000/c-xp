@@ -25,5 +25,5 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quas
 
 ### Screenshots
 [![Home](https://github.com/operez2000/c-xp/tree/main/images/home.PNG)](https://github.com/operez2000/c-xp/tree/main/images/home.PNG)
-[![mutt light](https://github.com/altercation/solarized/raw/master/img/screen-mutt-light-th.png)](https://github.com/altercation/solarized/raw/master/img/screen-mutt-light.png)
+[![mutt light](https://github.com/operez2000/c-xp/tree/main/images/home.PNG)](https://github.com/operez2000/c-xp/tree/main/images/home.PNG)
 
