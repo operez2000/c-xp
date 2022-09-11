@@ -1,0 +1,1 @@
+{"email":["alonso.moreno@certuslab.com.mx","noe.velasco@certuslab.com.mx"],"cc":"","clasificacion":"Sugerencia","subject":"Resumen de Encuestas // Tipo Sugerencia // 27-09-2021, 13:10","body":"","qry":"UPDATE surveys SET fechaEnvioSugerencia = GETDATE() WHERE responseId IN ()"}

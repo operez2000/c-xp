@@ -1,0 +1,4 @@
+{
+  "backendUrl": "http://127.0.0.1:3015",
+  "frontendUrl": "http://10.200.0.78:3011"
+}

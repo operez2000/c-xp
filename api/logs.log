@@ -1,0 +1,490 @@
+2022-04-30, 7:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-04-30, 11:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-05-01, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-05-01, 11:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-05-01, 3:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-05-01, 7:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-05-01, 11:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-05-02, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13457200281')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13457200281', '416504085', '002211125-0050', '2021-11-25 09:11:00', 'LUIS ALBERTO HERNANDEZ MEJIA', 'DANIELA ITZEL TORRES VARGAS', 'RIO', '2021-11-25 19:11:31', 'ALEJANDRO', 'RIVERA GIBAJA', 'alex.rivera.gibaja@gmail.com', 'F', 'CERTUS, mas lejos de las competencias tecnicas en temas de lanoratorio, ha logrado hacer algo que le falta a muchos proveedores de servicios medicos, salguardar la buena atencial al cliente con la mejor actitud. La cual sobrepasa los temas tecnicos e inclusive el precio.
+
+POR FAVOR no bajen la guardia.  Sigan apostandole al servicio.
+
+Llevo siendo cliente 10 años y lo seguire siendo mientras no cambie el servicio.
+
+GRacias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-04-27 12:48:40');
+            END
+        
+ ******************************** 
+2022-05-06, 7:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13462372313')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13462372313', '416652572', '007220503-0013', '2022-05-03 07:05:00', 'MARINNE YASENIA CARRAMAN JASSO', 'DULCE ARACELI ARRIZON PELAYO', 'SANTA FE', '2022-05-03 12:05:45', 'ARLETH VIVIANA', 'VELAZQUEZ CEJA', 'anacejayanez@gmail.com', 'F', 'Todo personal excelente atención😉', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-05-03 15:14:59');
+            END
+        
+ ******************************** 
+2022-05-06, 11:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13462372313')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13462372313', '416652572', '007220503-0013', '2022-05-03 07:05:00', 'MARINNE YASENIA CARRAMAN JASSO', 'DULCE ARACELI ARRIZON PELAYO', 'SANTA FE', '2022-05-03 12:05:45', 'ARLETH VIVIANA', 'VELAZQUEZ CEJA', 'anacejayanez@gmail.com', 'F', 'Todo personal excelente atención😉', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-05-03 15:14:59');
+            END
+        
+ ******************************** 
+2022-05-07, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13462372313')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13462372313', '416652572', '007220503-0013', '2022-05-03 07:05:00', 'MARINNE YASENIA CARRAMAN JASSO', 'DULCE ARACELI ARRIZON PELAYO', 'SANTA FE', '2022-05-03 12:05:45', 'ARLETH VIVIANA', 'VELAZQUEZ CEJA', 'anacejayanez@gmail.com', 'F', 'Todo personal excelente atención😉', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-05-03 15:14:59');
+            END
+        
+ ******************************** 
+2022-05-12, 7:00:02 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13465174227')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13465174227', '416652572', '003220505-0121', '2022-05-05 16:05:00', 'PAOLA GONZALEZ OTAÑEZ', 'n/a', 'HIPODROMO', '2022-05-05 19:05:48', 'KYRIA BELEM', 'GERARDO DORADO', 'kyriagdorado@gmail.com', 'F', '', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-05-06 11:43:56');
+            END
+        
+ ******************************** 
+2022-05-12, 11:00:02 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13467445806')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'S'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'S'),
+                '304624495', '13467445806', '416652572', '003220509-0072', '2022-05-09 09:05:00', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'AIDA SELENA GARCIA JERONIMO', 'HIPODROMO', '2022-05-09 13:05:24', 'ALMA ROSA', 'FAUSTO SALAZAR', 'rosinguis76@gmail.com', 'S', 'NA', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-05-09 18:45:04');
+            END
+        
+ ******************************** 
+2022-05-13, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13467445806')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'S'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'S'),
+                '304624495', '13467445806', '416652572', '003220509-0072', '2022-05-09 09:05:00', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'AIDA SELENA GARCIA JERONIMO', 'HIPODROMO', '2022-05-09 13:05:24', 'ALMA ROSA', 'FAUSTO SALAZAR', 'rosinguis76@gmail.com', 'S', 'NA', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-05-09 18:45:04');
+            END
+        
+ ******************************** 
+2022-05-26, 11:00:02 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13472528373')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13472528373', '416652572', '012220514-0035', '2022-05-14 12:05:00', 'ALAN DE JESUS AGUILAR GOMEZ', 'OSIRIS NOEL HERNANDEZ LARA', 'ROSARITO', '2022-05-14 17:05:37', 'GISELA MARIA', 'MARIN', 'arki27@hotmail.com', 'F', 'El servicio es excelente', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-05-16 03:05:07');
+            END
+        
+ ******************************** 
+2022-06-16, 11:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13493458662')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13493458662', '416797195', '004220611-0045', '2022-06-11 11:06:00', 'ADRIANA GUADALUPE MONTESINO MAYA', 'LAURA LIZBETH SIBAJA MENDEZ', 'BRISAS', '2022-06-11 15:06:19', 'MARIA FERNANDA', 'GONZALEZ YEPEZ', 'lilianayepezramon@gmail.com', 'F', 'Nos encontramos muy satisfechos toda la familia de seguir siendo clientes de ustedes y muchas felicidades por estar al la vanguardia y tan puntuales ...gracias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-06-12 12:41:02');
+            END
+        
+ ******************************** 
+2022-06-17, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13493458662')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13493458662', '416797195', '004220611-0045', '2022-06-11 11:06:00', 'ADRIANA GUADALUPE MONTESINO MAYA', 'LAURA LIZBETH SIBAJA MENDEZ', 'BRISAS', '2022-06-11 15:06:19', 'MARIA FERNANDA', 'GONZALEZ YEPEZ', 'lilianayepezramon@gmail.com', 'F', 'Nos encontramos muy satisfechos toda la familia de seguir siendo clientes de ustedes y muchas felicidades por estar al la vanguardia y tan puntuales ...gracias', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-06-12 12:41:02');
+            END
+        
+ ******************************** 
+2022-06-17, 7:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13495376979')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13495376979', '416797195', '003220614-0133', '2022-06-14 16:06:00', 'AIDA SELENA GARCIA JERONIMO', 'AIDA SELENA GARCIA JERONIMO', 'HIPODROMO', '2022-06-14 18:06:37', 'ANASTACIA', 'VALDEZ SANCHEZ', 'danhilo@live.com.mx', 'F', '', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-06-14 22:21:36');
+            END
+        
+ ******************************** 
+2022-06-17, 11:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13495376979')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13495376979', '416797195', '003220614-0133', '2022-06-14 16:06:00', 'AIDA SELENA GARCIA JERONIMO', 'AIDA SELENA GARCIA JERONIMO', 'HIPODROMO', '2022-06-14 18:06:37', 'ANASTACIA', 'VALDEZ SANCHEZ', 'danhilo@live.com.mx', 'F', '', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-06-14 22:21:36');
+            END
+        
+ ******************************** 
+2022-06-18, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13495376979')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13495376979', '416797195', '003220614-0133', '2022-06-14 16:06:00', 'AIDA SELENA GARCIA JERONIMO', 'AIDA SELENA GARCIA JERONIMO', 'HIPODROMO', '2022-06-14 18:06:37', 'ANASTACIA', 'VALDEZ SANCHEZ', 'danhilo@live.com.mx', 'F', '', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-06-14 22:21:36');
+            END
+        
+ ******************************** 
+2022-07-05, 7:00:02 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13507500799')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'S'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'S'),
+                '304624495', '13507500799', '416883225', '012220623-0006', '2022-06-23 07:06:00', 'ALAN DE JESUS AGUILAR GOMEZ', 'OSIRIS NOEL HERNANDEZ LARA', 'ROSARITO', '2022-06-23 15:06:37', 'DAMON JOHN', 'CRUZ', 'luzelenamiralrio@gmail.com', 'S', 'Sólo que que las instalaciones son chicas ', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-07-02 07:24:09');
+            END
+        
+ ******************************** 
+2022-07-05, 11:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13507500799')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'S'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'S'),
+                '304624495', '13507500799', '416883225', '012220623-0006', '2022-06-23 07:06:00', 'ALAN DE JESUS AGUILAR GOMEZ', 'OSIRIS NOEL HERNANDEZ LARA', 'ROSARITO', '2022-06-23 15:06:37', 'DAMON JOHN', 'CRUZ', 'luzelenamiralrio@gmail.com', 'S', 'Sólo que que las instalaciones son chicas ', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-07-02 07:24:09');
+            END
+        
+ ******************************** 
+2022-07-06, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13507500799')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'S'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'S'),
+                '304624495', '13507500799', '416883225', '012220623-0006', '2022-06-23 07:06:00', 'ALAN DE JESUS AGUILAR GOMEZ', 'OSIRIS NOEL HERNANDEZ LARA', 'ROSARITO', '2022-06-23 15:06:37', 'DAMON JOHN', 'CRUZ', 'luzelenamiralrio@gmail.com', 'S', 'Sólo que que las instalaciones son chicas ', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-07-02 07:24:09');
+            END
+        
+ ******************************** 
+2022-07-21, 7:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13517810573')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13517810573', '416956697', '003220718-0112', '2022-07-18 11:07:00', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'HIPODROMO', '2022-07-18 14:07:05', 'SAMANTHA', 'BARRERA RAMIREZ', 'samantha20997@gmail.com', 'F', 'Excelente Servicio y rapidez en todos los aspectos', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-07-18 16:41:35');
+            END
+        
+ ******************************** 
+2022-07-21, 11:00:01 p.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13517810573')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13517810573', '416956697', '003220718-0112', '2022-07-18 11:07:00', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'HIPODROMO', '2022-07-18 14:07:05', 'SAMANTHA', 'BARRERA RAMIREZ', 'samantha20997@gmail.com', 'F', 'Excelente Servicio y rapidez en todos los aspectos', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-07-18 16:41:35');
+            END
+        
+ ******************************** 
+2022-07-22, 7:00:01 a.m.
+ responses() 
+ Ok 
+ 
+          IF NOT EXISTS (SELECT responseId FROM surveys WHERE responseId = '13517810573')
+            BEGIN
+              INSERT INTO surveys
+                (oid, folioInterno, surveyId, responseId, collectorId, orden, fechaOrden, recepcionista, flebotomista, nombreSucursal, fechaEntrega, nombrePaciente, apellidosPaciente, emailPaciente, clasificacion, respuesta, fechaEnvioFelicitacion, fechaEnvioSugerencia, fechaEnvioQueja, encargado, seguimiento, fechaSeguimiento, solucion, fechaSolucion, evidenciaSolucion, fecha)
+              VALUES
+                (REPLACE(NEWID(), '-', ''),
+                ( SELECT TOP 1 CONCAT( clasificacion, '-', FORMAT( (SELECT COUNT(oid) +1 FROM surveys WHERE clasificacion = 'F'), '0000000#') )
+                  FROM surveys
+                  WHERE clasificacion = 'F'),
+                '304624495', '13517810573', '416956697', '003220718-0112', '2022-07-18 11:07:00', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'JAZMIN ALEXANDRA DEHARO MIRANDA', 'HIPODROMO', '2022-07-18 14:07:05', 'SAMANTHA', 'BARRERA RAMIREZ', 'samantha20997@gmail.com', 'F', 'Excelente Servicio y rapidez en todos los aspectos', NULL, NULL, NULL, '', 'N', NULL, 'N', NULL, NULL, '2022-07-18 16:41:35');
+            END
+        
+ ******************************** 

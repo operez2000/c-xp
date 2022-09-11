@@ -1,0 +1,26 @@
+{
+  "name": "api_cxp",
+  "version": "1.0.0",
+  "description": "API C-XP",
+  "main": "index.js",
+  "author": "Oscar P",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-throttle-bandwidth": "^1.0.1",
+    "formidable": "^2.0.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.18",
+    "sequelize": "^6.17.0",
+    "sha1": "^1.1.1",
+    "tedious": "^14.4.0"
+  }
+}

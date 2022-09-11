@@ -1,12 +1,10 @@
-# C-XP (c-xp)
+# Customer XP (c-xp)
 
-Customer XP
+Customer Experience
 
 ## Install the dependencies
 ```bash
 yarn
-# or
-npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
@@ -21,4 +19,4 @@ quasar build
 ```
 
 ### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
+See [Configuring quasar.conf.js](https://v2.quasar.dev/quasar-cli/quasar-conf-js).
