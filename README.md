@@ -25,4 +25,4 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quas
 
 ### Screenshots
 ### [![home](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
-    [![home](https://github.com/operez2000/c-xp/tree/main/images/home.PNG)](#features)
+[![home](https://github.com/operez2000/c-xp/tree/main/images/home.PNG)](#features)
