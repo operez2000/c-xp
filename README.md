@@ -24,7 +24,6 @@ quasar build
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js).
 
 ### Screenshots
-Screenshots
 ![home](https://user-images.githubusercontent.com/76175610/189551689-881fb433-e678-4dbc-b03d-ced01499db85.PNG)
 
 
