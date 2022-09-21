@@ -56,11 +56,11 @@ const surveyMonkey = {
   urlBase: 'https://api.surveymonkey.com/v3',
   headers: {
     'Content-Type': 'application/json',  // 'application/json;charset=utf-8'
-    'Authorization': 'bearer wNa1xhhiPTyoybU03WNMrqFWoa7YRLOkumPrRtG2s8dlPLgJqwaH7Fodqbf.5iIkGD5P2OR54ateg0HA3CCM5l5oCflYpFt2y.JOgeacZzLWbXaXU1ye8npS1cJ2Yt7p'
+    'Authorization': 'bearer -token-'
   },
   idSurvey: '304624495',
   idCollector: '405771396',  // Prueba TI
-  tokenWebHook: '4cb939ca53ec4ecdce3b8029e05e16d09662e028'  // SHA('SurveyMonkeyApi')
+  tokenWebHook: 'tokenWebHook'  //
 }
 
 const mailConfig = {
